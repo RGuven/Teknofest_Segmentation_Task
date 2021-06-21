@@ -22,3 +22,7 @@ Project Folder Structure
     - roi_images
     - roi_maskes
 
+    mask_to_1_channel.py
+    padding_with_zeros.py
+    pre-pre.py
+    test_image_applied.py
