@@ -4,23 +4,22 @@
 Project Folder Structure
 
 
+    > roi_images_padding_zeros
+    > roi_images
+    > roi_maskes
+    > images
+      >INMEYOK
+        ->ONE_CH_MASK (create own empty folder)
+        ->PNG (real images .jpg format)
+      >ISKEMI
+        ->MASK
+        ->ONE_CH_MASK (create own empty folder)
+        ->PNG (real images .jpg format)
+      >KANAMA
+        ->MASK
+        ->ONE_CH_MASK (create own empty folder)
+        ->PNG (real images .jpg format)
 
-    - images
-      -INMEYOK
-        -ONE_CH_MASK (create own empty folder)
-        -PNG (real images .jpg format)
-      -ISKEMI
-        -MASK
-        -ONE_CH_MASK (create own empty folder)
-        -PNG (real images .jpg format)
-      -KANAMA
-        -MASK
-        -ONE_CH_MASK (create own empty folder)
-        -PNG (real images .jpg format)
-
-    - roi_images_padding_zeros
-    - roi_images
-    - roi_maskes
 
     mask_to_1_channel.py
     padding_with_zeros.py
